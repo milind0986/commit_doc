@@ -1,0 +1,43 @@
+
+2 to 4
+if...else syntax in component HTML templates
+Stand alone animation module
+TypeScript's StrictNullChecks compliancy
+Angular Universal adoption by team to live in core
+Performance boost with FESM
+
+Wats new in Ang 5
+Build Optimizer -- makes application pure removes unnecessary add ons
+		-- remove angular decorators(only used by compilers)
+
+Angular Universal State Transfer API -- easily share application state 
+between the server side and client side 
+
+Compilor Improvements
+		   -- Faster rebuilds, fast AOT compilation
+		   --Preserve Whitespace
+Improved Decorator Support
+
+HttpClient in place of HttpLibrary
+
+https://medium.com/@chriscordle/why-angular-2-4-is-too-little-too-late-ea86d7fa0bae
+
+Wats new in ang 6
+
+ng update
+help you adopt the right version of dependencies,
+and keep your dependencies in sync
+ng add<package>
+makes adding new capabilities to your project easy
+Angular Elements
+CLI Workspaces
+RxJS v6
+
+ElementRef : Provides access to the underlying native element (DOM element).
+Renderer2 : service that allows to manipulate elements of your app without
+having to touch the DOM directly. Used mostly in custo directives.
+
+main.ts is the starting point of angular
+pollyfill.ts imports javascripts
+hot module reloading -- modify something in code and 
+it will be compiled automatically using webpack 

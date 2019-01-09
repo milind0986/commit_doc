@@ -1,0 +1,60 @@
+Type scripting features
+
+browsers transpiles typescript code into javascript
+type script is super script of javascript
+
+Static Typing: This means that you can declare the types of variables, and the 
+compiler will make sure that they aren't assigned the wrong types of values
+var burger: string = 'hamburger',     // String 
+    calories: number = 300,           // Numeric
+    tasty: boolean = true;            // Boolean
+
+Interfaces:Interfaces are used to type-check whether an object fits a 
+certain structure.
+interface Food {
+    name: string;
+    calories: number;
+}
+
+Classes
+TypeScript offers a class system that is very similar to the one in these 
+languages, including inheritance, abstract classes, interface implementations, 
+setters/getters, and more.
+class Menu {
+  // Our properties:
+  // By default they are public, but can also be private or protected.
+  items: Array<string>;  // The items in the menu, an array of strings.
+  pages: number;         // How many pages will the menu be, a number.
+
+  // A straightforward constructor. 
+  constructor(item_list: Array<string>, total_pages: number) {
+    // The this keyword is mandatory.
+    this.items = item_list;    
+    this.pages = total_pages;
+  }
+
+  // Methods
+  list(): void {
+    console.log("Our menu for today:");
+    for(var i=0; i<this.items.length; i++) {
+      console.log(this.items[i]);
+    }
+  }
+
+}
+
+var vs let 
+var will scope to nearest function
+let will scope to nearest function cant be used outside scope
+
+type annotation
+let a: number;
+
+type assertions: tell compilor abt type of variable(as string)
+
+arrow functions/lambda functions
+let dolog = (message) =>console.log(message);
+
+ 
+
+

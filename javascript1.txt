@@ -1,0 +1,55 @@
+
+Closures
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+OOps in JS
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model
+
+
+Hoisting in javascript -- variables declared at the top
+In JavaScript, a variable can be declared after it has been used.
+Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope 
+
+Before ES2015 JavaScript did not have Block Scope.
+
+Variables declared with the let keyword can have Block Scope.
+
+Variables declared inside a block {} can not be accessed from outside the block:
+Global variables defined with the let keyword do not belong to the window object in HTML
+
+IIFE design pattern used to generate block scope before ES2015
+
+Callbacks is not necessarily asynch
+
+functions are first class types in JS
+
+https://github.com/ElemeFE/style-guide/blob/master/javascript.md
+https://jsonplaceholder.typicode.com/posts
+https://www.codementor.io/community
+
+ES6 new features
+copy in javascript [...arr]
+object literals
+template literals
+for of loop
+destructuring -- conv obj to properties
+
+Iterator
+generator
+
+new DS
+Set
+Weatset
+Map
+Wekmap
+
+Any vs Object
+So in short, any can be anything (you can call any method etc on it without compilation errors). 
+If you explicitly use Object you will only be able to use the properties that are defined on the Object class.
+
+dom: dom is a model of objects that represent the structure of documnet ex html head title
+a tree of objects in memory
+html is a markup language that we use to represent dom in text format.
+when browser parses the html it creates a tree of objects referred as dom.
+html and dom elements have 1 to 1 mapping in 99% cases
+ 
+ document.queryselector("selector") -- selects the first element with selector.

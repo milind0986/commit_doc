@@ -1,0 +1,37 @@
+cd ~/Documents/Milind_Foldr/HTML
+
+git init
+git status -- whats going on in git
+
+git add filename or . -- Now this file will be tracked and is in staging
+
+git reset HEAD filename -- file will be removed from staging and is untracked.
+
+git commit -m "revision2" -- file will be commited under revision2
+
+git checkout filname -- file will undo to last revision state
+
+git rm filename -- delete n send directly to staging
+
+git add --all -- push everything to staging whether deleted or added
+
+git branch -- show all branches including master
+
+git branch branchname d4d4674 -- create new branch with branchname
+
+git checkout branchname -- to switch to that particular branch
+
+git merge branch -- merges branch
+
+git branch -m branchname newname
+
+git branch -d branchname
+
+git clone url -- will clone the project from git url
+
+npm install -g gulp -- install gulp
+
+git checkout -b 02_01 origin/02_01 --make a branch copy
+
+git clone --mirror https://github.com/planetoftheweb/responsivebootstrap.git .git -- cloning existing
+

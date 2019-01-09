@@ -1,0 +1,28 @@
+ng-route is developed by the angularJS Team for routing.
+
+ng-route: url (Location) based routing.
+
+Ex:
+
+$routeProvider
+    .when("/home", {
+        templateUrl : "home.html"
+    })
+ui-route:
+--routing
+ui-router is develoepd by 3rd party module.
+
+ui-router : state based routing
+
+Ex:
+
+ $stateProvider
+        .state('home', {
+            url: '/home',
+            templateUrl: 'home.html'
+        })
+--> ui-router allows for nested views
+
+--> ui-router more powerful than ng-route
+
+http://demisx.github.io/angularjs/2014/09/14/angular-what-goes-where.html
