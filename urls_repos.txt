@@ -44,6 +44,7 @@ https://phraseapp.com/blog/posts/10-must-read-blogs-for-software-developer/
 https://gist.github.com/tssm/7789984
 https://davidwalsh.name/
 Tutsgalaxy.com
+https://software.topcoder.com/catalog/index.jsp
 
 dot net core
 http://www.codingflow.net/building-single-page-applications-on-asp-net-core-2-2/
