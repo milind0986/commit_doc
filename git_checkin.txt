@@ -1,0 +1,13 @@
+cd /C/Users/Jyoti/Desktop/USSGSalaryslip/MyAngApp/my-app/src/
+
+Add project in remote git 
+Create a repository in git first
+1.git init
+2.git add .
+3.git commit -m "First"
+4.git remote add origin https://github.com/milind0986/dcodemilind.git
+5.git push origin master if not then git pull --rebase origin master then push
+
+
+https://github.com/milind0986/AngularBlogApp-Home-master
+cd /C/Users/Jyoti/Desktop/USSGSalaryslip/AngularBlogApp-Home-master

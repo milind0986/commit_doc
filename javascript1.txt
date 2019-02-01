@@ -46,10 +46,10 @@ Any vs Object
 So in short, any can be anything (you can call any method etc on it without compilation errors). 
 If you explicitly use Object you will only be able to use the properties that are defined on the Object class.
 
-dom: dom is a model of objects that represent the structure of documnet ex html head title
+dom: dom is a model of objects that represent the structure of document ex html head title
 a tree of objects in memory
 html is a markup language that we use to represent dom in text format.
 when browser parses the html it creates a tree of objects referred as dom.
 html and dom elements have 1 to 1 mapping in 99% cases
  
- document.queryselector("selector") -- selects the first element with selector.
+document.queryselector("selector") -- selects the first element with selector.
